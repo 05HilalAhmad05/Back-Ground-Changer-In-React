@@ -3,7 +3,7 @@ import { useState } from 'react'
 import './App.css'
 
 function App() {
-  let [color, setColor] = useState("red")
+  let [color, setColor] = useState("purple")
 
   return (
     <div className='h-screen w-screen flex  justify-center' style={{ backgroundColor: color}}>
